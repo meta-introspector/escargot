@@ -1,11 +1,11 @@
-[workspace]
+#[workspace]
 resolver = "2"
 
 [workspace.package]
 repository = "https://github.com/crate-ci/escargot.git"
 license = "MIT OR Apache-2.0"
 edition = "2021"
-rust-version = "1.70"  # MSRV
+# rust-version = "1.70"  # MSRV
 include = [
   "build.rs",
   "src/**/*",
